@@ -1,0 +1,113 @@
+.head{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder; 
+    position: absolute;
+    left: 43%;
+    color: rgb(3, 3, 19);
+    background-color: rgba(8, 181, 194, 0.836);
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1604866830172-c9427272ccf3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fGxpYnJhcnklMjBibHVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover; 
+
+}
+.donate_page{
+   
+    background-image: url("https://img.freepik.com/free-photo/blurred-library-bookshelves_23-2148448040.jpg?size=626&ext=jpg");
+}
+.Book{
+    background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    
+}
+h1{
+    color: lightcyan;
+    
+}
+h2{
+    padding-top: 4rem;
+}
+.text{
+    color: lightyellow;
+    width: calc(100% / 6 );
+
+}
+.txt{
+    color: rgb(235, 235, 226);
+}
+.cat{
+    padding-top: 1rem;
+    width: calc(100% / 6 );
+    color: lightblue;
+    font-size: 20px;
+}
+th {  
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 2rem;
+      
+}
+.buton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container{
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    max-width: 700px;
+    border-radius: 5px;
+    width: 100%;
+}
+.container form .user-details {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input_box{
+    margin-bottom:  1rem;
+    width: calc(100% / 2 - 20px);
+}
+form  .Address{
+    width: calc(100% / 1 );
+    margin: 20px 0 12px 0;
+    font-weight: 500;
+}
+form .Address  input{
+    height: 45px;
+    width: 100%;
+}
+form .Place{
+    width: calc(100% / 3 -20px );
+    margin: 0 0 12px 0;
+    font-weight: 500;
+}
+form .Place input{
+    height: 45px;
+    width: 100%;
+}
+form .check_box{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: calc(100% / 1);
+
+}
+.user-details .input_box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+.user-details .input_box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid#ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
